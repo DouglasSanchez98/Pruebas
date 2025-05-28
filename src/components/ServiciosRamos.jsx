@@ -50,11 +50,11 @@ const ServiciosRamos = () => {
     ]
     return (
         <div name="servicios"
-            className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
+            className="bg-gradient-to-b from-green-one to-gray-800 w-full text-white md:h-screen">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
                 <div className="pb-8 flex flex-col justify-center items-center">
-                    <p className="text-5xl text-yellow-300 font-bold inline justify-center"
-                    >¿Qué te podemos ofrecer?</p>
+                    <p className="text-5xl text-orange-one font-bold inline justify-center"
+                    >¿Qué podemos ofrecer?</p>
                     
                 </div>
                 

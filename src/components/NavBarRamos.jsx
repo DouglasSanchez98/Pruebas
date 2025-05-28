@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Link } from 'react-scroll';
-import logoRamos from '../assets/logoUnico.png'
-import logoBlancoRamos from '../assets/logoBlancoRamos.png'
+import logofundacion1 from '../assets/logofundacion1.png';
 import ReactWhatsapp from 'react-whatsapp';
 
 
@@ -22,56 +21,84 @@ const NavBarRamos = () => {
         },
         {
             id: 2,
-            link: 'proyectos',
+            link: 'quienessomos',
             child: (
                 <>
 
-                    <p className="cursor-pointer m-1">proyectos</p>
+                    <p className="cursor-pointer m-1">quiénes somos</p>
 
                 </>
             ),
         },
         {
             id: 3,
-            link: 'nosotros',
+            link: 'quehacemos',
             child: (
                 <>
 
-                    <p className="cursor-pointer m-1">nosotros</p>
+                    <p className="cursor-pointer m-1">qué hacemos</p>
 
                 </>
             ),
         },
         {
             id: 4,
-            link: 'servicios',
+            link: 'impacto',
             child: (
                 <>
 
-                    <p className="cursor-pointer m-1">servicios</p>
+                    <p className="cursor-pointer m-1">impacto</p>
 
                 </>
             ),
         },
         {
             id: 5,
-            link: 'clientes',
+            link: 'comoayudar',
             child: (
                 <>
 
-                    <p className="cursor-pointer m-1">clientes</p>
+                    <p className="cursor-pointer m-1">cómo ayudar</p>
 
                 </>
             ),
         },
-        {
+         {
             id: 6,
+            
+            child: (
+                <>
+
+                    <div className='border border-orange-one border-solid rounded p-1'>
+                        <ReactWhatsapp number="+59179910234" message="Saludos necesito Información sobre la Fundación Danielito" element='text' >
+                            <p className="cursor-pointer m-1 ">Donar</p>
+                        </ReactWhatsapp>
+                    </div>
+                </>
+            ),
+        },
+          {
+            id: 7,
+            
+            child: (
+                <>
+
+                    <div className='border border-orange-one border-solid rounded p-1 bg-orange-one'>
+                        <ReactWhatsapp number="+59179910234" message="Saludos necesito Información sobre la Fundación Danielito" element='text' >
+                            <p className="cursor-pointer m-1 text-white ">Hazte Socio</p>
+                        </ReactWhatsapp>
+                    </div>
+                </>
+            ),
+        },
+        {
+            id: 8,
             link: 'contacto',
             child: (
                 <>
-                    <div className='border border-yellow-300 border-solid rounded p-1'>
-                        <ReactWhatsapp number="+59170626554" message="Saludos necesito Información" element='text' >
-                            <p className="cursor-pointer m-1 ">contacto</p>
+                    <div className='border border-orange-one border-solid rounded p-1'>
+                        <ReactWhatsapp number="+59179910234" message="Saludos necesito Información sobre la Fundación Danielito" element='text' >
+                            <p className="cursor-pointer m-1 ">Contacto</p>
                         </ReactWhatsapp>
                     </div>
                 </>
@@ -80,16 +107,16 @@ const NavBarRamos = () => {
     ]
     return (
         <div className='flex  justify-between items-center w-full h-20
-         px-4 text-white bg-black fixed z-10 '>
+         px-4 text-white bg-white fixed z-10'>
             <div className="h-full">
-                <img src={logoBlancoRamos} alt="Logo Ramos Film Production"
-                    className="pt-2 rounded-2xl mx-auto md:h-16 h-20"></img>
+                <img src={logofundacion1} alt="Logo Fundación Danielito"
+                    className="pt-2 rounded-2xl mx-auto md:h-18 h-20"></img>
             </div>
 
             <ul className='hidden md:flex'>
                 {links.map(({ id, link, child }) => (
 
-                    <li key={id} className='px-4 cursor-pointer capitalize font font-medium text-gray-400 hover:scale-105 duration-200'>
+                    <li key={id} className='px-4 cursor-pointer capitalize font font-medium text-green-two hover:scale-105 duration-200'>
                         <Link to={link} smooth duration={500}>
                             {child}
                         </Link>

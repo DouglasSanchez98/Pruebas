@@ -4,11 +4,13 @@ import Contact from "./components/Contact";
 import ContactRamos from "./components/ContactRamos";
 import EmpresasRamos from "./components/EmpresasRamos";
 import Experience from "./components/Experience";
+import FullWidthCarousel from "./components/FullWidthCarousel";
 import Home from "./components/Home";
 import HomeRamos from "./components/HomeRamos";
 import NavBar from "./components/NavBar";
 import NavBarRamos from "./components/NavBarRamos";
 import Portfolio from "./components/Portfolio";
+import ResponsiveCarousel from "./components/ResponsiveCarousel";
 import ServiciosRamos from "./components/ServiciosRamos";
 import SocialLinks from "./components/SocialLinks";
 import SocialLinksRamos from "./components/SocialLinksRamos";
@@ -28,9 +30,11 @@ function App() {
       <Contact/>
       
       <SocialLinks/>*/}
-
+      
       <NavBarRamos />
       <VideoExampleComp />
+      {/*<FullWidthCarousel/>*/}
+      <ResponsiveCarousel/>
       <AboutRamos />
       <ServiciosRamos />
       <Trabajos/>
