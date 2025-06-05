@@ -1,21 +1,12 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
-import { Navigation, Autoplay } from 'swiper/modules'
+import { Navigation, Autoplay,Pagination,Scrollbar } from 'swiper/modules'
 
 import imgMobile1 from '../assets/arteCelular.png'
 import imgTablet1 from '../assets/arteTablet.png'
 import imgLaptop1 from '../assets/arteLaptop.png'
 import imgDesktop1 from '../assets/artePantallaGrande.png'
-
-/*import imgMobile2 from '../assets/banner2-480x270.jpg'
-import imgTablet2 from '../assets/banner2-768x432.jpg'
-import imgLaptop2 from '../assets/banner2-1280x720.jpg'
-import imgDesktop2 from '../assets/banner2-1920x1080.jpg'*/
-
-
-
-
 
 const slides = [
   {
@@ -38,8 +29,9 @@ export default function ResponsiveCarousel() {
   return (
     <div name='quienessomos' className='flex items-center justify-center'>
     <Swiper
-      modules={[Navigation, Autoplay]}
-      navigation
+      modules={[Pagination, Autoplay,Scrollbar]}
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
       autoplay={{ delay: 5000 }}
       loop={true}
       className="w-full"
