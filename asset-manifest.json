@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Pruebas/static/css/main.ec81da48.css",
-    "main.js": "/Pruebas/static/js/main.a26c46bc.js",
+    "main.css": "/Pruebas/static/css/main.fdb59703.css",
+    "main.js": "/Pruebas/static/js/main.db27fb77.js",
     "static/media/videoPromo1.mp4": "/Pruebas/static/media/videoPromo1.c6632861194b85c8c87e.mp4",
     "static/media/logofundacion1.png": "/Pruebas/static/media/logofundacion1.d2ea9526aa4e1808fa37.png",
     "static/media/camarografos.png": "/Pruebas/static/media/camarografos.a86f3a9092b82b090757.png",
     "static/media/arteLaptop.png": "/Pruebas/static/media/arteLaptop.dc957b6b2ba792bab3bc.png",
     "static/media/artePantallaGrande.png": "/Pruebas/static/media/artePantallaGrande.58b84a3adb572910a6fd.png",
     "static/media/arteTablet.png": "/Pruebas/static/media/arteTablet.dd7267c1bd3172fb866b.png",
+    "static/media/niño.png": "/Pruebas/static/media/niño.1c481540402ab0a97a12.png",
     "static/media/fotoPerfilIa.png": "/Pruebas/static/media/fotoPerfilIa.4d2cefc5a7c280e8c355.png",
     "static/media/FotoDouglas.png": "/Pruebas/static/media/FotoDouglas.e28bffedc094f1bcacf2.png",
     "static/media/mainIverCorp.png": "/Pruebas/static/media/mainIverCorp.f6385046e2d11532a054.png",
@@ -36,11 +37,11 @@
     "static/media/serieMiga3.jpg": "/Pruebas/static/media/serieMiga3.98991f04e1b254cf4aa5.jpg",
     "static/media/gobMunTornoLogo2.jpeg": "/Pruebas/static/media/gobMunTornoLogo2.6a2bf1ced58787b0fdc5.jpeg",
     "index.html": "/Pruebas/index.html",
-    "main.ec81da48.css.map": "/Pruebas/static/css/main.ec81da48.css.map",
-    "main.a26c46bc.js.map": "/Pruebas/static/js/main.a26c46bc.js.map"
+    "main.fdb59703.css.map": "/Pruebas/static/css/main.fdb59703.css.map",
+    "main.db27fb77.js.map": "/Pruebas/static/js/main.db27fb77.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec81da48.css",
-    "static/js/main.a26c46bc.js"
+    "static/css/main.fdb59703.css",
+    "static/js/main.db27fb77.js"
   ]
 }
