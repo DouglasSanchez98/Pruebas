@@ -12,6 +12,7 @@ module.exports = {
     },
     fontFamily: {
       signature: ["Great Vibes"],
+      montserrat:['"Montserrat"','sans-serif']
     },
     
   },

@@ -32,33 +32,33 @@ const NavBarRamos = () => {
         },
         {
             id: 3,
-            link: 'quehacemos',
+            link: 'programas',
             child: (
                 <>
 
-                    <p className="cursor-pointer m-1">qué hacemos</p>
+                    <p className="cursor-pointer m-1">Programas</p>
 
                 </>
             ),
         },
         {
             id: 4,
-            link: 'impacto',
+            link: 'comoapoyar',
             child: (
                 <>
 
-                    <p className="cursor-pointer m-1">impacto</p>
+                    <p className="cursor-pointer m-1">cómo apoyar</p>
 
                 </>
             ),
         },
         {
             id: 5,
-            link: 'comoayudar',
+            link: 'impacto',
             child: (
                 <>
 
-                    <p className="cursor-pointer m-1">cómo ayudar</p>
+                    <p className="cursor-pointer m-1">impacto</p>
 
                 </>
             ),
@@ -133,7 +133,7 @@ const NavBarRamos = () => {
             </div>
             {nav && (
 
-                <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 '>
+                <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-green-one text-white '>
                     {links.map(({ id, link, child }) => (
 
                         <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>

@@ -1,5 +1,6 @@
 import About from "./components/About";
 import AboutRamos from "./components/AboutRamos";
+import AnimatedStats from "./components/AnimatedStats";
 import Contact from "./components/Contact";
 import ContactRamos from "./components/ContactRamos";
 import EmpresasRamos from "./components/EmpresasRamos";
@@ -17,6 +18,8 @@ import SocialLinksRamos from "./components/SocialLinksRamos";
 import TeamRamos from "./components/TeamRamos";
 import Trabajos from "./components/Trabajos";
 import VideoExampleComp from "./components/VideoExampleComp";
+
+
 
 function App() {
   return (
@@ -39,8 +42,9 @@ function App() {
       <ServiciosRamos />
       <Trabajos/>
       <EmpresasRamos />
-      <TeamRamos/>
+      {/*<TeamRamos/> */}
       <ContactRamos />
+      
       <SocialLinksRamos />
     </div>
 

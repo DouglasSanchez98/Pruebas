@@ -1,18 +1,11 @@
 import React from 'react'
 
-import Donaciones2 from '../assets/donacionesEnviosPetCopy2.png'
-import Construccion from '../assets/mainIverCorp.png'
-import Construccion1 from '../assets/mainIverCorpCopy.png'
-import Construccion2 from '../assets/mainIverCorpCopy2.png'
-import RetoMateo25 from '../assets/retoMateo25Portada.jpg'
-import ManifiestoBancoFie from '../assets/manifiestoBancoFie2.jpg'
-import PeliculaEngaño from '../assets/PeliculaEngaño.jpg'
-import SerieMigafonos from '../assets/serieMiga3.jpg'
-import Produccion from '../assets/produccion.png'
-import Marketing from '../assets/marketing.png'
-import Streaming from '../assets/streaming.png'
-import Sonido from '../assets/sonido.png'
 
+import Cdi from '../assets/1.png'
+import CdiUribicha from '../assets/2.png'
+import ProyectoBendicion from '../assets/3.png'
+import FamiliasSaludables from '../assets/4.png'
+import fondoProgramas from '../assets/fondoProgramas.jpg'
 
 
 
@@ -20,28 +13,28 @@ const ServiciosRamos = () => {
     const portfolios=[
         {
             id:1,
-            src: Produccion,
+            src: Cdi,
             tipo: 'Serie Documental',
             cliente: 'Visión mundial',
             href:'https://www.youtube.com/watch?v=MwgMV7Abi98'
         },
         {
             id:2,
-            src: Marketing,
+            src: CdiUribicha,
             tipo: 'Spot Publicitario',
             cliente: 'Banco Fie',
             href:'https://www.youtube.com/watch?v=UNcAp03Gc7Y'
         },
         {
             id:3,
-            src: Streaming,
+            src: ProyectoBendicion,
             tipo: 'Película',
             cliente: 'Artistas Latinos',
             href:'https://youtu.be/N58w35TkE98?si=gcCpzngmG9DHVEg3'
         },
         {
             id:4,
-            src: Sonido,
+            src: FamiliasSaludables,
             tipo: 'Serie Documental',
             cliente: 'Migafonos',
             href:'https://www.youtube.com/playlist?list=PL91AWfgdAzD2CkKNdMRNApLx58cfzRt8v'
@@ -49,20 +42,22 @@ const ServiciosRamos = () => {
        
     ]
     return (
-        <div name="servicios"
-            className="bg-gradient-to-b from-green-one to-gray-800 w-full text-white md:h-screen">
+        <div name="programas"
+            className="bg-green-two w-full text-white md:h-screen"
+            style={{
+                                backgroundImage: `url(${fondoProgramas})`,
+                              }}>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
                 <div className="pb-8 flex flex-col justify-center items-center">
-                    <p className="text-5xl text-orange-one font-bold inline justify-center"
-                    >¿Qué podemos ofrecer?</p>
-                    
+                    <p className="text-5xl text-white font-montserrat inline justify-center border-b-4 border-orange-one"
+                    >Programas</p>
                 </div>
                 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 px-12 sm:px-0">
                 {
-                    portfolios.map(({id,src,tipo,cliente})=> (
-                        <div key={id} className="shadow-md shadow-gray-600 rounded-lg h-96">
-                        <img src={src} alt=""
+                    portfolios.map(({id,src,tipo,cliente,href})=> (
+                        <div key={id} className="shadow-md shadow-gray-600 rounded-lg h-96" onClick={() => window.open(href, '_blank')}>
+                        <img src={src} alt="" 
                         className="rounded-md duration-200 hover:scale-110 h-full w-full" />
                        
                     </div>
