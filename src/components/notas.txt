@@ -89,3 +89,29 @@ Redes sociales
 Formulario de contacto
 
 Dirección física (si se desea incluir)
+
+
+TAREAS PENDIENTES
+
+PENDIENTES FUNDACIÓN DANIELITO
+- Numero de celular de contacto por WhatsApp
+- Qr abierto de cuenta Nacional
+- Datos de cuenta bancaria
+- Fotos escogidas para sección PROGRAMAS
+- Fotos escogidas para sección DONACIONES
+- Correo electrónico correcto
+
+MIS PENDIENTES EN PAGINA
+- BOTONES DE LLAMADO A LA ACCIÓN EN CADA SLIDER                 (listo)
+- FRASE DE BIENVENIDA PRINCIPAL                                 (listo)
+- CAMBIAR FOTOS DE SECCIONES PROGRAMAS Y DONACIONES
+- DEFINIR QUE INFORMACIÓN NUMÉRICA COLOCAR EN SECCIÓN IMPACTO
+- OTRA PÁGINA NAVEGABLE PARA QR Y NÚMERO DE CUENTA
+- PÁGINA DE DESCRIPCIÓN E IMÁGENES DE CADA PROGRAMA
+- A DÓNDE LLEVARÁ LOS CARTELES DE DONACIONES?                   (listo)
+1er Slider dirige a Programas
+2do Slider dirige a Donaciones
+3er Slider dirige a Impacto
+4to Slider dirige a Contactos
+- INTEGRAR LA SOLUCIÓN DE CORREO
+

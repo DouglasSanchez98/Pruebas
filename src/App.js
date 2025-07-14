@@ -25,24 +25,15 @@ function App() {
   return (
 
     <div className=" bg-gradient-to-b from-black via-black to-gray-800 flex flex-col  ">
-      {/*<NavBar/>
-      <Home/>
-      <About/>
-      <Portfolio/>
-      <Experience/>
-      <Contact/>
-      
-      <SocialLinks/>*/}
+    
       
       <NavBarRamos />
       <VideoExampleComp />
-      {/*<FullWidthCarousel/>*/}
       <ResponsiveCarousel/>
       <AboutRamos />
       <ServiciosRamos />
       <Trabajos/>
       <EmpresasRamos />
-      {/*<TeamRamos/> */}
       <ContactRamos />
       
       <SocialLinksRamos />

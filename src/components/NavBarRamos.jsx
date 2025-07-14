@@ -107,7 +107,7 @@ const NavBarRamos = () => {
     ]
     return (
         <div className='flex  justify-between items-center w-full h-20
-         px-4 text-white bg-white fixed z-10'>
+         px-4 text-white bg-white fixed z-20'>
             <div className="h-full">
                 <img src={logofundacion1} alt="Logo Fundación Danielito"
                     className="pt-2 rounded-2xl mx-auto md:h-18 h-20"></img>

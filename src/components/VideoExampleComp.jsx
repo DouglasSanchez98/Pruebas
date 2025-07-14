@@ -27,10 +27,10 @@ const VideoExampleComp = () => {
       {/* Texto centrado */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center text-white">
         <h1 className="text-3xl sm:text-5xl font-bold drop-shadow-lg">
-          Bienvenido a Nuestra Plataforma
+          Fundacion Danielito
         </h1>
         <p className="mt-4 text-lg sm:text-2xl drop-shadow">
-          Tu mensaje impactante aquí
+          Trabajamos con amor y entrega junto a familias, cuidadores y comunidades, transformando vidas con principios cristianos
         </p>
       </div>
     </div>

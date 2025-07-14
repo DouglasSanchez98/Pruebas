@@ -25,7 +25,7 @@ const AboutRamos = () => {
       }}>
         
 
-       <div className="max-w-screen-lg px-4 mx-auto flex flex-col md:flex-row items-center justify-center w-full h-full gap-8 py-10">
+       <div className="max-w-screen-lg px-4 mx-auto flex flex-col md:flex-row items-center justify-center w-full h-full gap-8 pt-10 ">
         {/* TEXTO */}
         <div className="w-full md:w-1/2">
           <p className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-orange-one">
