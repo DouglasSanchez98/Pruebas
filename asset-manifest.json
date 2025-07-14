@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pruebas/static/css/main.183f1400.css",
-    "main.js": "/Pruebas/static/js/main.94c74c96.js",
+    "main.css": "/Pruebas/static/css/main.9444a710.css",
+    "main.js": "/Pruebas/static/js/main.a1cb31f6.js",
     "static/media/videoPropaganda2.mp4": "/Pruebas/static/media/videoPropaganda2.713a0367ef7ee30698b3.mp4",
     "static/media/logofundacion1.png": "/Pruebas/static/media/logofundacion1.d2ea9526aa4e1808fa37.png",
     "static/media/carrusel3.png": "/Pruebas/static/media/carrusel3.31c6b61a8d4af8f52449.png",
@@ -45,11 +45,11 @@
     "static/media/redbullLogo.png": "/Pruebas/static/media/redbullLogo.3159ec7e9e416eefef9a.png",
     "static/media/gobMunTornoLogo2.jpeg": "/Pruebas/static/media/gobMunTornoLogo2.6a2bf1ced58787b0fdc5.jpeg",
     "index.html": "/Pruebas/index.html",
-    "main.183f1400.css.map": "/Pruebas/static/css/main.183f1400.css.map",
-    "main.94c74c96.js.map": "/Pruebas/static/js/main.94c74c96.js.map"
+    "main.9444a710.css.map": "/Pruebas/static/css/main.9444a710.css.map",
+    "main.a1cb31f6.js.map": "/Pruebas/static/js/main.a1cb31f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.183f1400.css",
-    "static/js/main.94c74c96.js"
+    "static/css/main.9444a710.css",
+    "static/js/main.a1cb31f6.js"
   ]
 }
