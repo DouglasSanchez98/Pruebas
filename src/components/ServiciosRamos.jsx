@@ -1,4 +1,3 @@
-import React from 'react'
 
 
 import Cdi from '../assets/1.png'

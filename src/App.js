@@ -1,21 +1,10 @@
-import About from "./components/About";
 import AboutRamos from "./components/AboutRamos";
-import AnimatedStats from "./components/AnimatedStats";
-import Contact from "./components/Contact";
 import ContactRamos from "./components/ContactRamos";
 import EmpresasRamos from "./components/EmpresasRamos";
-import Experience from "./components/Experience";
-import FullWidthCarousel from "./components/FullWidthCarousel";
-import Home from "./components/Home";
-import HomeRamos from "./components/HomeRamos";
-import NavBar from "./components/NavBar";
 import NavBarRamos from "./components/NavBarRamos";
-import Portfolio from "./components/Portfolio";
 import ResponsiveCarousel from "./components/ResponsiveCarousel";
 import ServiciosRamos from "./components/ServiciosRamos";
-import SocialLinks from "./components/SocialLinks";
 import SocialLinksRamos from "./components/SocialLinksRamos";
-import TeamRamos from "./components/TeamRamos";
 import Trabajos from "./components/Trabajos";
 import VideoExampleComp from "./components/VideoExampleComp";
 
@@ -35,7 +24,6 @@ function App() {
       <Trabajos/>
       <EmpresasRamos />
       <ContactRamos />
-      
       <SocialLinksRamos />
     </div>
 
