@@ -115,3 +115,6 @@ MIS PENDIENTES EN PAGINA
 4to Slider dirige a Contactos
 - INTEGRAR LA SOLUCIÓN DE CORREO
 
+
+CONFIGURACIÓN PARA GITHUB PAGES
+"homepage": "https://douglassanchez98.github.io/Pruebas",
