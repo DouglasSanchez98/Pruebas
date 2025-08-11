@@ -12,7 +12,7 @@ const Trabajos = () => {
             tipo: 'Patrocinador Uno a Uno',
             cliente: 'Click para mayor información',
             area:'Apoya el crecimiento y formación de una vida',
-            href: 'https://www.youtube.com/watch?v=MwgMV7Abi98'
+            href:'https://www.fundanielitobolivia.org'        
         },
         {
             id: 2,
@@ -20,7 +20,7 @@ const Trabajos = () => {
             tipo: 'Patrocinador a Proyectos',
             cliente: 'Click para mayor información',
             area:'Se parte de proyectos que ayudan a muchos',
-            href: 'https://www.youtube.com/watch?v=UNcAp03Gc7Y'
+            href:'https://www.fundanielitobolivia.org'
         },
         {
             id: 3,
@@ -28,7 +28,7 @@ const Trabajos = () => {
             tipo: 'Donante General',
             cliente: 'Click para mayor información',
             area:'Conviertete en donante de la fundación',
-            href: 'https://youtu.be/N58w35TkE98?si=gcCpzngmG9DHVEg3'
+            href:'https://www.fundanielitobolivia.org'
         },
        
     ]

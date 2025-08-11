@@ -15,28 +15,28 @@ const ServiciosRamos = () => {
             src: Cdi,
             tipo: 'Serie Documental',
             cliente: 'Visión mundial',
-            href:'https://www.youtube.com/watch?v=MwgMV7Abi98'
+            href:'https://www.fundanielitobolivia.org'
         },
         {
             id:2,
             src: CdiUribicha,
             tipo: 'Spot Publicitario',
             cliente: 'Banco Fie',
-            href:'https://www.youtube.com/watch?v=UNcAp03Gc7Y'
+            href:'https://www.fundanielitobolivia.org'
         },
         {
             id:3,
             src: ProyectoBendicion,
             tipo: 'Película',
             cliente: 'Artistas Latinos',
-            href:'https://youtu.be/N58w35TkE98?si=gcCpzngmG9DHVEg3'
+            href:'https://www.fundanielitobolivia.org'
         },
         {
             id:4,
             src: FamiliasSaludables,
             tipo: 'Serie Documental',
             cliente: 'Migafonos',
-            href:'https://www.youtube.com/playlist?list=PL91AWfgdAzD2CkKNdMRNApLx58cfzRt8v'
+            href:'https://www.fundanielitobolivia.org'
         },
        
     ]

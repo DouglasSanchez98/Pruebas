@@ -1,15 +1,4 @@
-import React from 'react'
-import HtmlLogo from '../assets/htmlLogo.png'
-import TailwindLogo from '../assets/tailwindLogo.png'
-import JssLogo from '../assets/jssLogo.png'
-import CssLogo from '../assets/cssLogo.png'
-import BurgerKinglogo from '../assets/burgerKinglogo.png'
-import CbnLogo from '../assets/cbnLogo.png'
-import RedbullLogo from '../assets/redbullLogo.png'
-import ProlimpioLogo from '../assets/proLimpioLogo2.jpeg'
-import GobMunTornoLogo from '../assets/gobMunTornoLogo2.jpeg'
-import SofiaLogo from '../assets/sofiaLogo2.jpeg'
-import EmbolLogo from '../assets/embolLogo.png'
+
 import fondo from '../assets/fondoImpacto.JPG'
 
 import CountUp from 'react-countup';
@@ -25,44 +14,7 @@ const stats = [
 
 
 const EmpresasRamos = () => {
-    const techs = [
-        {
-          id: 1,
-          src: GobMunTornoLogo,
-          title: 'Gob. Municipal del Torno',
-          style: 'shadow-orange-500  md:w-2/3 w-1/1'
-        },
-        {
-          id: 2,
-          src: ProlimpioLogo,
-          title: 'Prolimpio',
-          style: 'shadow-yellow-400 md:w-2/3 w-1/1'
-        },
-        {
-          id: 3,
-          src: CbnLogo,
-          title: 'Cervecería Boliviana Nacional',
-          style: 'shadow-gray-200  md:w-2/3 w-1/1'
-        },
-        {
-          id: 4,
-          src: RedbullLogo,
-          title: 'Redbull',
-          style: 'shadow-indigo-700  md:w-2/3 w-1/1'
-        },
-        {
-          id: 5,
-          src: SofiaLogo,
-          title: 'Sofia',
-          style: 'shadow-red-900  md:w-2/3 w-1/1'
-        },
-        {
-          id: 6,
-          src: EmbolLogo,
-          title: 'Embol',
-          style: 'shadow-red-800  md:w-2/3 w-1/1'
-        },
-      ];
+   
     
       return (
     
