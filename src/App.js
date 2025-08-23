@@ -11,6 +11,9 @@ import SocialLinksRamos from "./components/SocialLinksRamos";
 import Trabajos from "./components/Trabajos";
 import VideoExampleComp from "./components/VideoExampleComp";
 import Urubicha from "./components/Urubicha";
+import CdiPentaguazu from "./components/CdiPentaguazu";
+import ProyectoBendicion from "./components/ProyectoBendicion";
+import FamiliasSaludables from "./components/FamiliasSaludables";
 
 // Página principal
 function HomePage() {
@@ -31,15 +34,25 @@ function HomePage() {
 // Componente contenedor que decide si mostrar el navbar
 function Layout() {
   const location = useLocation();
+  // Lista de rutas donde NO queremos mostrar el NavBar
+  const hideNavbarPaths = [
+    "/urubicha",
+    "/cdipentaguazu",
+    "/proyectobendicion",
+    "/familiassaludables",
+  ];
 
   return (
     <>
       {/* Mostrar navbar solo si no estamos en /urubicha */}
-      {location.pathname !== "/urubicha" && <NavBarRamos />}
+       {!hideNavbarPaths.includes(location.pathname) && <NavBarRamos />}
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/cdipentaguazu" element={<CdiPentaguazu />} />
         <Route path="/urubicha" element={<Urubicha />} />
+        <Route path="/proyectobendicion" element={<ProyectoBendicion />} />
+        <Route path="/familiassaludables" element={<FamiliasSaludables />} />
       </Routes>
     </>
   );

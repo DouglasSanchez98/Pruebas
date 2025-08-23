@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link as ScrollLink } from 'react-scroll';
-import { Link as RouterLink } from 'react-router-dom';
 import logofundacion1 from '../assets/logofundacion1.png';
 import ReactWhatsapp from 'react-whatsapp';
 
@@ -45,13 +44,6 @@ const NavBarRamos = () => {
                     </li>
                 ))}
 
-                {/* Botón hacia la nueva página Urubicha */}
-                <li className='px-4 cursor-pointer capitalize font-medium text-green-two hover:scale-105 duration-200'>
-                    <RouterLink to="/urubicha" className="border border-orange-one border-solid rounded p-1">
-                        Urubicha
-                    </RouterLink>
-                </li>
-
                 {/* Botón de WhatsApp */}
                 <li>
                     <div className='border border-orange-one border-solid rounded p-1'>
@@ -88,13 +80,6 @@ const NavBarRamos = () => {
                             </ScrollLink>
                         </li>
                     ))}
-
-                    {/* Link a Urubicha en móvil */}
-                    <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-                        <RouterLink to="/urubicha" onClick={() => setNav(false)}>
-                            Urubicha
-                        </RouterLink>
-                    </li>
 
                     {/* Botón WhatsApp en móvil */}
                     <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>
