@@ -94,20 +94,21 @@ Dirección física (si se desea incluir)
 TAREAS PENDIENTES
 
 PENDIENTES FUNDACIÓN DANIELITO
-- Numero de celular de contacto por WhatsApp
-- Qr abierto de cuenta Nacional
-- Datos de cuenta bancaria
+- Numero de celular de contacto por WhatsApp  (Obtenido)
+- Qr abierto de cuenta Nacional               (Listo)
+- Datos de cuenta bancaria                    (Listo)
 - Fotos escogidas para sección PROGRAMAS
 - Fotos escogidas para sección DONACIONES
-- Correo electrónico correcto
+- Correo electrónico correcto                 (listo)
 
 MIS PENDIENTES EN PAGINA
 - BOTONES DE LLAMADO A LA ACCIÓN EN CADA SLIDER                 (listo)
 - FRASE DE BIENVENIDA PRINCIPAL                                 (listo)
-- CAMBIAR FOTOS DE SECCIONES PROGRAMAS Y DONACIONES
 - DEFINIR QUE INFORMACIÓN NUMÉRICA COLOCAR EN SECCIÓN IMPACTO
-- OTRA PÁGINA NAVEGABLE PARA QR Y NÚMERO DE CUENTA
-- PÁGINA DE DESCRIPCIÓN E IMÁGENES DE CADA PROGRAMA
+- OTRA PÁGINA NAVEGABLE PARA QR Y NÚMERO DE CUENTA              (listo)
+- PÁGINA DE DESCRIPCIÓN E IMÁGENES DE CADA PROGRAMA             (En proceso)
+   - Colocar imagenes y descripciones adecuadas en cada programa
+- REALIZAR SECCIÓN DE REVISTA
 - A DÓNDE LLEVARÁ LOS CARTELES DE DONACIONES?                   (listo)
 1er Slider dirige a Programas
 2do Slider dirige a Donaciones

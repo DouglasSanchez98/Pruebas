@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import img2 from "../assets/urubicha2.jpg";
-import img3 from "../assets/urubicha3.jpg";
+import img2pentaguazu from "../assets/pentaguazu2.jpg";
+import img3pentaguazu from "../assets/pentaguazu3.jpg";
 import logofundacion1 from '../assets/logofundacion1.png';
 import ReactWhatsapp from 'react-whatsapp';
 import React, { useEffect, useState } from "react";
@@ -16,7 +16,7 @@ export default function CdiPentaguazu() {
     return () => clearInterval(intervalo);
   }, []);
 
-  const imagenActual = mostrarPrimeraImagen ? img2 : img3;
+  const imagenActual = mostrarPrimeraImagen ? img2pentaguazu : img3pentaguazu;
 
   return (
     <div
@@ -55,11 +55,11 @@ export default function CdiPentaguazu() {
             {/* TEXTO */}
             <div className="w-full md:w-1/2">
               <p className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-orange-one">
-                Implementamos un Centro de Desarrolo Integral en Guarayos - Urubichá
+                Presentamos el Centro de Desarrollo Integral en Pentaguazú
               </p>
 
               <p className="text-1xl sm:text-2xl mt-6 text-green-one">
-                <strong>Grupo objetivo:</strong> Brindamos apoyo a 50 niños y niñas patrocinados desde 3 años a 9 años de edad
+                <strong>Grupo objetivo:</strong> PROGRAMA JUVENTUD (12 hasta 21 años), PROGAMA NIÑEZ (1 hasta 11 años)
               </p>
 
               <p className="text-1xl sm:text-2xl mt-6 text-green-one">

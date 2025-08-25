@@ -1,6 +1,4 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { useEffect } from "react";
-
 import AboutRamos from "./components/AboutRamos";
 import ContactRamos from "./components/ContactRamos";
 import EmpresasRamos from "./components/EmpresasRamos";
@@ -14,6 +12,7 @@ import Urubicha from "./components/Urubicha";
 import CdiPentaguazu from "./components/CdiPentaguazu";
 import ProyectoBendicion from "./components/ProyectoBendicion";
 import FamiliasSaludables from "./components/FamiliasSaludables";
+import DonacionesPage from "./components/DonacionesPage";
 
 // Página principal
 function HomePage() {
@@ -40,6 +39,7 @@ function Layout() {
     "/cdipentaguazu",
     "/proyectobendicion",
     "/familiassaludables",
+    "/donacionespage",
   ];
 
   return (
@@ -53,6 +53,8 @@ function Layout() {
         <Route path="/urubicha" element={<Urubicha />} />
         <Route path="/proyectobendicion" element={<ProyectoBendicion />} />
         <Route path="/familiassaludables" element={<FamiliasSaludables />} />
+        <Route path="/donacionespage" element={<DonacionesPage />} />
+
       </Routes>
     </>
   );

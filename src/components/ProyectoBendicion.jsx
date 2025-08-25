@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import img2 from "../assets/urubicha2.jpg";
-import img3 from "../assets/urubicha3.jpg";
+import img2 from "../assets/bendicion1.jpg";
+import img3 from "../assets/bendicion2.jpg";
 import logofundacion1 from '../assets/logofundacion1.png';
 import ReactWhatsapp from 'react-whatsapp';
 import React, { useEffect, useState } from "react";
@@ -55,11 +55,11 @@ export default function ProyectoBendicion() {
             {/* TEXTO */}
             <div className="w-full md:w-1/2">
               <p className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-orange-one">
-                Implementamos un Centro de Desarrolo Integral en Guarayos - Urubichá
+                Fundación Danielito forma parte del Proyecto Bendición
               </p>
 
               <p className="text-1xl sm:text-2xl mt-6 text-green-one">
-                <strong>Grupo objetivo:</strong> Brindamos apoyo a 50 niños y niñas patrocinados desde 3 años a 9 años de edad
+                <strong>Grupo objetivo:</strong> Apoyamos por medio de este proyecto a los niños de familias de escasos recursos
               </p>
 
               <p className="text-1xl sm:text-2xl mt-6 text-green-one">

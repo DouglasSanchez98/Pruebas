@@ -55,11 +55,11 @@ export default function FamiliasSaludables() {
             {/* TEXTO */}
             <div className="w-full md:w-1/2">
               <p className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-orange-one">
-                Implementamos un Centro de Desarrolo Integral en Guarayos - Urubichá
+                Presentamos el proyecto Familias Saludables no Perfectas
               </p>
 
               <p className="text-1xl sm:text-2xl mt-6 text-green-one">
-                <strong>Grupo objetivo:</strong> Brindamos apoyo a 50 niños y niñas patrocinados desde 3 años a 9 años de edad
+                <strong>Grupo objetivo:</strong> .........................................................
               </p>
 
               <p className="text-1xl sm:text-2xl mt-6 text-green-one">

@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link as ScrollLink } from 'react-scroll';
 import logofundacion1 from '../assets/logofundacion1.png';
 import ReactWhatsapp from 'react-whatsapp';
+import { Link } from 'react-router-dom';
 
 const NavBarRamos = () => {
     const [nav, setNav] = useState(false);
@@ -14,8 +15,7 @@ const NavBarRamos = () => {
         { id: 3, link: 'programas', label: 'Programas' },
         { id: 4, link: 'comoapoyar', label: 'cómo apoyar' },
         { id: 5, link: 'impacto', label: 'impacto' },
-        { id: 6, link: 'comoapoyar', label: 'Donar', className: 'border border-orange-one border-solid rounded p-1' },
-        { id: 7, link: 'contacto', label: 'Hazte Socio', className: 'border border-orange-one border-solid rounded p-1 bg-orange-one text-white' },
+        { id: 6, link: 'contacto', label: 'Hazte Socio', className: 'border border-orange-one border-solid rounded p-1 bg-orange-one text-white' },
     ];
 
     return (
@@ -44,6 +44,17 @@ const NavBarRamos = () => {
                     </li>
                 ))}
 
+                {/* Botón a Página Donaciones */}
+                <li>
+                    <div className='border border-orange-one border-solid rounded p-1'>
+                        
+                        <Link 
+                        to={'/donacionespage'}>
+                       
+                            <p className="cursor-pointer m-1 capitalize font-medium text-green-two hover:scale-105 duration-200">Donar</p>
+                         </Link>
+                    </div>
+                </li>
                 {/* Botón de WhatsApp */}
                 <li>
                     <div className='border border-orange-one border-solid rounded p-1'>
@@ -91,6 +102,17 @@ const NavBarRamos = () => {
                             <p className="cursor-pointer">Contacto</p>
                         </ReactWhatsapp>
                     </li>
+                    {/* Botón a Página Donaciones */}
+                <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>
+                    
+                        
+                        <Link 
+                        to={'/donacionespage'}>
+                       
+                            <p className="cursor-pointer m-1 capitalize font-medium text-white hover:scale-105 duration-200">Donar</p>
+                         </Link>
+                    
+                </li>
                 </ul>
             )}
         </div>
