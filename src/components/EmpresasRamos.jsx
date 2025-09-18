@@ -4,12 +4,13 @@ import fondo from '../assets/fondoImpacto.JPG'
 import CountUp from 'react-countup';
 
 const stats = [
-  { value: 700, label: 'Llamadas/chats al día' },
-  { value: 256263, label: 'Peticiones de Ayuda en 2023' },
-  { value: 18893, label: 'Casos atendidos en 2023' },
-  { value: 2220, label: 'Niños/as acogidos en nuestros Hogares ANAR desde 1970' },
-  { value: 197572, label: 'Alumnos, profesionales y familias formados en Colegios e Institutos desde 2003' },
-  { value: 6.5, suffix: ' mill', label: 'Peticiones de Ayuda atendidas en el Teléfono y Chat ANAR desde 1994' },
+  { value: 700, label: 'Niños patrocinados' },
+  { value: 20, label: 'Voluntarios y Personal de apoyo' },
+  { value: 10, label: 'Revisiones médicas realizadas' },
+  { value: 200, label: 'Jóvenes capacitados en Institutos' },
+  { value: 500, label: 'Patrocinadores activos' },
+  { value: 600, label: 'Donaciones de viveres' },
+  //{ value: 6.5, suffix: ' mill', label: 'Peticiones de Ayuda atendidas en el Teléfono y Chat ANAR desde 1994' },
 ];
 
 
@@ -25,8 +26,8 @@ const EmpresasRamos = () => {
           <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-orange-one">
     
             <div>
-              <p className="text-4xl font-bold border-b-4 border-orange-one p-2 inline">Impacto</p>
-              <p className="py-6">Conoce los logros que se han desarrollado</p>
+              <p className="text-4xl font-bold border-b-4 border-orange-one p-2 inline">Impacto 2024</p>
+              <p className="py-6">Conoce los logros que se han desarrollado en el año 2024</p>
             </div>
     
             {/*<div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

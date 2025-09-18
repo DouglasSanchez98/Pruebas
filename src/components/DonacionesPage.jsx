@@ -62,7 +62,7 @@ const DonacionesPage = () => {
                             className="pt-2 rounded-2xl mx-auto md:h-18 h-20"
                         />
                     </div>
-        <h1 className="text-2xl font-bold hidden lg:block">Familias Saludables</h1>
+        <h1 className="text-2xl font-bold hidden lg:block">Donaciones</h1>
         <Link
           to="/"
           className="bg-orange-one hover:bg-orange-600 text-white px-2 py-2 rounded"

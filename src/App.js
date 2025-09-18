@@ -13,6 +13,7 @@ import CdiPentaguazu from "./components/CdiPentaguazu";
 import ProyectoBendicion from "./components/ProyectoBendicion";
 import FamiliasSaludables from "./components/FamiliasSaludables";
 import DonacionesPage from "./components/DonacionesPage";
+import Revista from "./components/Revista";
 
 // Página principal
 function HomePage() {
@@ -24,6 +25,7 @@ function HomePage() {
       <ServiciosRamos />
       <Trabajos />
       <EmpresasRamos />
+      <Revista/>
       <ContactRamos />
       <SocialLinksRamos />
     </div>
