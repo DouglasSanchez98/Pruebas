@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import img2 from "../assets/urubicha2.jpg";
-import img3 from "../assets/urubicha3.jpg";
+import img2 from "../assets/FamiliasSaludables1.jpg";
+import img3 from "../assets/FamiliasSaludables1.jpg";
 import logofundacion1 from '../assets/logofundacion1.png';
 import ReactWhatsapp from 'react-whatsapp';
 import React, { useEffect, useState } from "react";
@@ -59,7 +59,7 @@ export default function FamiliasSaludables() {
               </p>
 
               <p className="text-1xl sm:text-2xl mt-6 text-green-one">
-                <strong>Grupo objetivo:</strong> .........................................................
+                <strong>Grupo objetivo:</strong> Familias
               </p>
 
               <p className="text-1xl sm:text-2xl mt-6 text-green-one">

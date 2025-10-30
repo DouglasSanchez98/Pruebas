@@ -1,5 +1,5 @@
 import { Download } from "lucide-react";
-import revista from '../assets/revista2024.png';
+import revista from '../assets/memoriaAnual.png';
 import fondo from '../assets/fondoQuienesSomos.JPG'
 
 
@@ -24,7 +24,7 @@ export default function Revista() {
           
           {/* Botón de descarga */}
           <a
-            href= 'https://drive.google.com/file/d/14bl2H7Jdzu7rUWN_Cp7B3y2VPrEAh8gq/view?usp=sharing'
+            href= 'https://drive.google.com/file/d/1eIm8p6u-2HTctOlRmc7n3N009uF_4Yvm/view?usp=sharing'
             target="_blank"
             rel="noopener noreferrer"
             //download
