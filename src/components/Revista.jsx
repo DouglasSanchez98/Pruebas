@@ -42,7 +42,7 @@ export default function Revista() {
             alt="Memoria 2023"
             className="rounded-lg shadow-lg max-h-[350px] object-cover"
           />
-          <p className="mt-3 font-bold text-orange-one text-lg">Revista 2024</p>
+          <p className="mt-3 font-bold text-orange-one text-lg">Revista 2025</p>
         </div>
       </div>
     </section>
